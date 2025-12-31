@@ -1,30 +1,52 @@
-# Configurações do GitHub Pages para performance
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-compress-images # Se quiser compressão automática
+# _config.yml
+title: "Camarim - Catálogo Online"
+description: "Catálogo online com as melhores ofertas em calçados, bolsas, roupas e acessórios"
+baseurl: ""
+url: "https://lojacamarim.github.io/" # Substitua pelo seu
 
-compress_images:
-  src: "img"
-  dst: "assets/optimized"
-  quality: 80
-  formats: ["webp", "jpeg"]
+# Configurações de build
+markdown: kramdown
+permalink: pretty
 
-# Cache control
+# Otimizações de performance
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false
+
+# Cache
 sass:
   style: compressed
 
-# Minificação
-jekyll-minifier:
-  compress_css: true
-  compress_javascript: true
-  remove_comments: true
-  remove_quotes: true
-  remove_script_attributes: true
-  remove_style_attributes: true
-  remove_link_attributes: true
-  remove_form_attributes: true
-  remove_input_attributes: true
-  remove_javascript_protocol: true
-  remove_http_protocol: true
-  remove_https_protocol: true
+# Minificação automática
+minify_html: true
+
+# Desativar coisas que não precisa
+exclude:
+  - README.md
+  - node_modules
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+
+include:
+  - _headers
+  - _redirects
+
+# Plugins do GitHub Pages
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Configurações de SEO
+author: "Camarim"
+twitter:
+  username: ""
+github:
+  username: ""
+  
+# Não use compressão de imagem aqui (lento no GitHub Pages)
+# Em vez disso, vamos otimizar manualmente
