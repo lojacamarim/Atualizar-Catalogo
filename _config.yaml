@@ -1,0 +1,30 @@
+# Configurações do GitHub Pages para performance
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-compress-images # Se quiser compressão automática
+
+compress_images:
+  src: "img"
+  dst: "assets/optimized"
+  quality: 80
+  formats: ["webp", "jpeg"]
+
+# Cache control
+sass:
+  style: compressed
+
+# Minificação
+jekyll-minifier:
+  compress_css: true
+  compress_javascript: true
+  remove_comments: true
+  remove_quotes: true
+  remove_script_attributes: true
+  remove_style_attributes: true
+  remove_link_attributes: true
+  remove_form_attributes: true
+  remove_input_attributes: true
+  remove_javascript_protocol: true
+  remove_http_protocol: true
+  remove_https_protocol: true
