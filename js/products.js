@@ -12,7 +12,7 @@ const productsData = {
             "sellingPrice": 100,
             "stock": 3,
             "discount": 30,
-            "images": ["2.jpeg"]
+            "images": ["2.webp"]
         },
         {
             "id": "CAM-00003",
@@ -21,7 +21,7 @@ const productsData = {
             "sellingPrice": 100,
             "stock": 3,
             "discount": 30,
-            "images": ["3.jpeg"]
+            "images": ["3.webp"]
         },
         {
             "id": "CAM-00004",
@@ -30,7 +30,7 @@ const productsData = {
             "sellingPrice": 105,
             "stock": 6,
             "discount": 30,
-            "images": ["4.jpeg"]
+            "images": ["4.webp"]
         },
         {
             "id": "CAM-00005",
@@ -39,7 +39,7 @@ const productsData = {
             "sellingPrice": 49.90,
             "stock": 4,
             "discount": 15,
-            "images": ["5.jpeg"]
+            "images": ["5.webp"]
         },
         {
             "id": "CAM-00006",
@@ -48,7 +48,7 @@ const productsData = {
             "sellingPrice": 139.90,
             "stock": 2,
             "discount": 0,
-            "images": ["6.jpeg"]
+            "images": ["6.webp"]
         },
         {
             "id": "CAM-00007",
@@ -57,7 +57,7 @@ const productsData = {
             "sellingPrice": 100,
             "stock": 9,
             "discount": 30,
-            "images": ["7.jpeg"]
+            "images": ["7.webp"]
         },
         {
             "id": "CAM-00008",
@@ -66,7 +66,7 @@ const productsData = {
             "sellingPrice": 59.90,
             "stock": 1,
             "discount": 18,
-            "images": ["8.jpeg"]
+            "images": ["8.webp"]
         },
         {
             "id": "CAM-00010",
@@ -75,7 +75,7 @@ const productsData = {
             "sellingPrice": 139.90,
             "stock": 0,
             "discount": 14,
-            "images": ["10.jpeg"]
+            "images": ["10.webp"]
         },
         {
             "id": "CAM-00011",
@@ -84,7 +84,7 @@ const productsData = {
             "sellingPrice": 160,
             "stock": 2,
             "discount": 30,
-            "images": ["11.jpeg"]
+            "images": ["11.webp"]
         },
         {
             "id": "CAM-00012",
@@ -93,7 +93,7 @@ const productsData = {
             "sellingPrice": 40,
             "stock": 6,
             "discount": 0,
-            "images": ["12.jpeg", "12-1.jpeg", "12-2.jpeg", "12-3.jpeg", "12-4.jpeg", "12-5.jpeg"]
+            "images": ["12.webp", "12-1.webp", "12-2.webp", "12-3.webp", "12-4.webp", "12-5.webp"]
         },
         {
             "id": "CAM-00013",
@@ -102,7 +102,7 @@ const productsData = {
             "sellingPrice": 149.90,
             "stock": 1,
             "discount": 15,
-            "images": ["13.jpeg"]
+            "images": ["13.webp"]
         },
         {
             "id": "CAM-00014",
@@ -111,7 +111,7 @@ const productsData = {
             "sellingPrice": 140,
             "stock": 7,
             "discount": 25,
-            "images": ["14.jpeg"]
+            "images": ["14.webp"]
         },
         {
             "id": "CAM-00015",
@@ -120,7 +120,7 @@ const productsData = {
             "sellingPrice": 120,
             "stock": 6,
             "discount": 25,
-            "images": ["15.jpeg"]
+            "images": ["15.webp"]
         },
         {
             "id": "CAM-00016",
@@ -129,7 +129,7 @@ const productsData = {
             "sellingPrice": 80,
             "stock": 2,
             "discount": 20,
-            "images": ["16.jpeg"]
+            "images": ["16.webp"]
         },
         {
             "id": "CAM-00017",
@@ -138,7 +138,7 @@ const productsData = {
             "sellingPrice": 150,
             "stock": 2,
             "discount": 15,
-            "images": ["17.jpeg"]
+            "images": ["17.webp"]
         },
         {
             "id": "CAM-00018",
@@ -147,7 +147,7 @@ const productsData = {
             "sellingPrice": 100,
             "stock": 1,
             "discount": 10,
-            "images": ["18.jpeg"]
+            "images": ["18.webp"]
         },
         {
             "id": "CAM-00020",
@@ -156,7 +156,7 @@ const productsData = {
             "sellingPrice": 50,
             "stock": 1,
             "discount": 15,
-            "images": ["20.jpeg", "20-1.jpeg"]
+            "images": ["20.webp", "20-1.webp"]
         },
         {
             "id": "CAM-00021",
@@ -165,7 +165,7 @@ const productsData = {
             "sellingPrice": 120,
             "stock": 2,
             "discount": 25,
-            "images": ["21.jpeg"]
+            "images": ["21.webp"]
         },
         {
             "id": "CAM-00022",
@@ -174,7 +174,7 @@ const productsData = {
             "sellingPrice": 80,
             "stock": 1,
             "discount": 30,
-            "images": ["22.jpeg"]
+            "images": ["22.webp"]
         },
         {
             "id": "CAM-00023",
@@ -183,7 +183,7 @@ const productsData = {
             "sellingPrice": 170,
             "stock": 1,
             "discount": 20,
-            "images": ["23.jpeg"]
+            "images": ["23.webp"]
         },
         {
             "id": "CAM-00024",
@@ -192,7 +192,7 @@ const productsData = {
             "sellingPrice": 19.90,
             "stock": 4,
             "discount": 0,
-            "images": ["24.jpeg"]
+            "images": ["24.webp"]
         },
         {
             "id": "CAM-00025",
@@ -201,7 +201,7 @@ const productsData = {
             "sellingPrice": 24.90,
             "stock": 2,
             "discount": 0,
-            "images": ["25.jpeg"]
+            "images": ["25.webp"]
         },
         {
             "id": "CAM-00026",
@@ -210,7 +210,7 @@ const productsData = {
             "sellingPrice": 59.90,
             "stock": 3,
             "discount": 0,
-            "images": ["26.jpeg"]
+            "images": ["26.webp"]
         },
         {
             "id": "CAM-00027",
@@ -219,7 +219,7 @@ const productsData = {
             "sellingPrice": 15,
             "stock": 2,
             "discount": 0,
-            "images": ["27.jpeg"]
+            "images": ["27.webp"]
         },
         {
             "id": "CAM-00028",
@@ -228,7 +228,7 @@ const productsData = {
             "sellingPrice": 160,
             "stock": 5,
             "discount": 20,
-            "images": ["28.jpeg", "28-1.jpeg", "28-2.jpeg", "28-3.jpeg", "28-4.jpeg", "28-5.jpeg"]
+            "images": ["28.webp", "28-1.webp", "28-2.webp", "28-3.webp", "28-4.webp", "28-5.webp"]
         },
         {
             "id": "CAM-00029",
@@ -237,7 +237,7 @@ const productsData = {
             "sellingPrice": 160,
             "stock": 5,
             "discount": 20,
-            "images": ["29.jpeg", "29-1.jpeg", "29-2.jpeg", "29-3.jpeg", "29-4.jpeg", "29-5.jpeg"]
+            "images": ["29.webp", "29-1.webp", "29-2.webp", "29-3.webp", "29-4.webp", "29-5.webp"]
         },
         {
             "id": "CAM-00030",
@@ -246,7 +246,7 @@ const productsData = {
             "sellingPrice": 140,
             "stock": 1,
             "discount": 15,
-            "images": ["30.jpeg", "30-1.jpeg", "30-2.jpeg"]
+            "images": ["30.webp", "30-1.webp", "30-2.webp"]
         },
         {
             "id": "CAM-00031",
@@ -255,7 +255,7 @@ const productsData = {
             "sellingPrice": 140,
             "stock": 2,
             "discount": 15,
-            "images": ["31.jpeg", "31-1.jpeg", "31-2.jpeg"]
+            "images": ["31.webp", "31-1.webp", "31-2.webp"]
         },
         {
             "id": "CAM-00032",
@@ -264,7 +264,7 @@ const productsData = {
             "sellingPrice": 120,
             "stock": 4,
             "discount": 15,
-            "images": ["32.jpeg", "32-1.jpeg", "32-2.jpeg", "32-3.jpeg", "32-4.jpeg", "32-5.jpeg", "32-6.jpeg"]
+            "images": ["32.webp", "32-1.webp", "32-2.webp", "32-3.webp", "32-4.webp", "32-5.webp", "32-6.webp"]
         },
         {
             "id": "CAM-00033",
@@ -273,7 +273,7 @@ const productsData = {
             "sellingPrice": 60,
             "stock": 3,
             "discount": 0,
-            "images": ["33.jpeg", "33-1.jpeg", "33-2.jpeg"]
+            "images": ["33.webp", "33-1.webp", "33-2.webp"]
         },
         {
             "id": "CAM-00034",
@@ -282,7 +282,7 @@ const productsData = {
             "sellingPrice": 100,
             "stock": 1,
             "discount": 0,
-            "images": ["34.jpeg", "34-1.jpeg", "34-2.jpeg"]
+            "images": ["34.webp", "34-1.webp", "34-2.webp"]
         },
         {
             "id": "CAM-00035",
@@ -291,7 +291,7 @@ const productsData = {
             "sellingPrice": 140,
             "stock": 1,
             "discount": 0,
-            "images": ["35.jpeg", "35-1.jpeg", "35-2.jpeg"]
+            "images": ["35.webp", "35-1.webp", "35-2.webp"]
         },
         {
             "id": "CAM-00036",
@@ -300,7 +300,7 @@ const productsData = {
             "sellingPrice": 120,
             "stock": 1,
             "discount": 0,
-            "images": ["36.jpeg", "36-1.jpeg"]
+            "images": ["36.webp", "36-1.webp"]
         },
         {
             "id": "CAM-00037",
@@ -309,7 +309,7 @@ const productsData = {
             "sellingPrice": 60,
             "stock": 2,
             "discount": 0,
-            "images": ["37.jpeg", "37-1.jpeg"]
+            "images": ["37.webp", "37-1.webp"]
         },
         {
             "id": "CAM-00038",
@@ -318,7 +318,7 @@ const productsData = {
             "sellingPrice": 140,
             "stock": 1,
             "discount": 0,
-            "images": ["38.jpeg"]
+            "images": ["38.webp"]
         },
         {
             "id": "CAM-00039",
@@ -327,7 +327,7 @@ const productsData = {
             "sellingPrice": 140,
             "stock": 3,
             "discount": 0,
-            "images": ["39.jpeg", "39-1.jpeg"]
+            "images": ["39.webp", "39-1.webp"]
         }
     ]
 };
@@ -374,7 +374,7 @@ function getProductImagePaths(product) {
         return product.images.map(img => `img/${img}`);
     }
     const numericId = product.id.replace('CAM-', '').replace(/^0+/, '');
-    return [`img/${numericId}.jpeg`];
+    return [`img/${numericId}.webp`];
 }
 
 // Gerar mensagem do WhatsApp para produto
