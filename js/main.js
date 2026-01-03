@@ -240,31 +240,31 @@ function initPaymentIcons() {
     const paymentMethods = [
         {
             name: 'Visa',
-            url: 'https://sites-cms-deco-prd.s3.us-east-1.amazonaws.com/incoming/ton/e6b249d6-d7e6-48aa-a84b-7723822fa8ef/flag-visa.svg'
+            fileName: 'visa.svg'
         },
         {
             name: 'Mastercard',
-            url: 'https://sites-cms-deco-prd.s3.us-east-1.amazonaws.com/incoming/ton/d57be004-17fe-45c6-9f96-496b1120e0d3/flag-mastercard.svg'
+            fileName: 'mastercard.svg'
         },
         {
             name: 'Elo',
-            url: 'https://sites-cms-deco-prd.s3.us-east-1.amazonaws.com/incoming/ton/a25181f4-82d7-4534-a903-1aef38a21b6d/flag-elo.svg'
+            fileName: 'elo.svg'
         },
         {
             name: 'PIX',
-            url: 'https://sites-cms-deco-prd.s3.us-east-1.amazonaws.com/incoming/ton/ce92f252-49c2-40b4-a316-9fcae30ecbc1/flag-pix.svg'
+            fileName: 'pix.svg'
         },
         {
             name: 'Apple Pay',
-            url: 'https://sites-cms-deco-prd.s3.us-east-1.amazonaws.com/incoming/ton/fb9c9c47-af9b-4cee-aa00-345c277f6e49/flag-apple-pay.svg'
+            fileName: 'apple-pay.svg'
         },
         {
             name: 'Google Pay',
-            url: 'https://sites-cms-deco-prd.s3.us-east-1.amazonaws.com/incoming/ton/8067d7c4-a20f-416e-9c94-af907a4fade0/flag-google-pay.svg'
+            fileName: 'google-pay.svg'
         },
         {
             name: 'Samsung Pay',
-            url: 'https://sites-cms-deco-prd.s3.us-east-1.amazonaws.com/incoming/ton/9076e148-f7f2-40a9-9955-a7cfef82b785/flag-samsung-pay.svg'
+            fileName: 'samsung-pay.svg'
         }
     ];
     
@@ -276,7 +276,7 @@ function initPaymentIcons() {
         iconDiv.setAttribute('title', method.name);
         
         const img = document.createElement('img');
-        img.dataset.src = method.url;
+        img.src = `img/payments/${method.fileName}`;
         img.alt = method.name;
         img.loading = 'lazy';
         
